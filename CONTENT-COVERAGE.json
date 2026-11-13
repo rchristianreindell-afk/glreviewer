@@ -1,0 +1,67 @@
+{
+  "source": "SIYENSYA-bilidad 2",
+  "pdfPages": 82,
+  "questionPagesProcessed": [
+    9,
+    58
+  ],
+  "answerKeyPagesProcessed": [
+    59,
+    82
+  ],
+  "totalQuestions": 203,
+  "answerKeyEntriesMatched": 203,
+  "writtenRationalizations": 124,
+  "itemsWithoutWrittenRationalization": 79,
+  "sourcePageImages": 50,
+  "sections": [
+    {
+      "id": "verbal",
+      "name": "Verbal Reasoning",
+      "expected": 10,
+      "parsed": 10,
+      "keyPairs": 10,
+      "missingKeys": []
+    },
+    {
+      "id": "nonverbal",
+      "name": "Non-Verbal Reasoning",
+      "expected": 20,
+      "parsed": 20,
+      "keyPairs": 20,
+      "missingKeys": []
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "expected": 43,
+      "parsed": 43,
+      "keyPairs": 43,
+      "missingKeys": []
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "expected": 60,
+      "parsed": 60,
+      "keyPairs": 60,
+      "missingKeys": []
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "expected": 40,
+      "parsed": 40,
+      "keyPairs": 40,
+      "missingKeys": []
+    },
+    {
+      "id": "mechanical",
+      "name": "Mechanical-Technical",
+      "expected": 30,
+      "parsed": 30,
+      "keyPairs": 30,
+      "missingKeys": []
+    }
+  ]
+}

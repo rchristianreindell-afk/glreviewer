@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101b33">
+<title>SIYENSYA-bilidad 2 — Interactive DOST Reviewer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="brand-mark">S²</div><div><strong>SIYENSYA-bilidad 2</strong><small>Interactive DOST Reviewer</small></div></div>
+    <button class="nav-item active" data-view="dashboard"><span>⌂</span> Overview</button>
+    <div class="nav-label">QUESTION BANK</div>
+    <div id="sectionNav"></div>
+    <div class="nav-label">STUDY TOOLS</div>
+    <button class="nav-item" data-view="notebook"><span>▤</span> Mistake notebook <b id="mistakeCount" class="nav-count">0</b></button>
+    <button class="nav-item" data-view="analytics"><span>◔</span> Progress analytics</button>
+    <button class="nav-item" data-view="laboratory"><span>⚙</span> Simulation laboratory</button>
+    <button class="nav-item" data-view="exam"><span>◷</span> Exam simulator</button>
+    <div class="sidebar-bottom"><div class="source-tag">SOURCE-BASED REVIEW</div><p>Built from the uploaded 2019 DOST-SEI SIYENSYA-bilidad 2 reviewer.</p><a href="SIYENSYA-bilidad-2-source.pdf" target="_blank" rel="noopener">Open original PDF ↗</a></div>
+  </aside>
+  <main class="main-area">
+    <header class="topbar"><button class="mobile-menu" id="mobileMenu" aria-label="Toggle menu">☰</button><div class="crumb" id="crumb">Overview <span>/</span> Dashboard</div><div class="top-actions"><div class="search-wrap"><span>⌕</span><input id="searchInput" placeholder="Search questions or topics…" autocomplete="off"></div><button class="icon-btn" id="focusBtn" title="Toggle focused question view">⛶</button></div></header>
+    <div id="viewRoot" class="view-root"></div>
+  </main>
+</div>
+<script src="question-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
